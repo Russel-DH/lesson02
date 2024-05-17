@@ -1,0 +1,6 @@
+name = input('Название товара: ')
+cost = input('Цена товара: ')
+weight = input('Вес товара: ')
+money = input('Количество денег у пользователя: ')
+itog = float(weight)*float(cost)
+print("Чек ", name, "-", weight, "кг", "-", cost, "руб/кг", "Итого", itog, "руб", "Внесено:", money, "руб", "Сдача:", float(money)-float(weight)*float(cost))
